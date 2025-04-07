@@ -13,12 +13,10 @@ Por definição o hardwware consta de uma placa Arduino pro mini com micro-contr
     <td>Arduino</td><td>Módulo Bluetooth</td>
   </thead>
   <tbody>
-    <tr>
-      <td>pin 8 (TX)</td><td>RX</td>
-      <td>pin 9 (RX)</td><td>TX</td>
-      <td>VCC</td><td>VCC</td>
-      <td>GND</td><td>GND</td>
-    </tr>
+    <tr><td>pin 8 (TX)</td><td>RX</td></tr>
+    <tr><td>pin 9 (RX)</td><td>TX</td></tr>
+    <tr><td>VCC</td><td>VCC</td></tr>
+    <tr><td>GND</td><td>GND</td></tr>
   </tbody>
 </table>
 
