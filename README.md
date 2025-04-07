@@ -8,21 +8,21 @@ Este projeto pode ser adaptado para qualquer sistema similar de outros estados.
 # Construção do hardware
 Por definição o hardwware consta de uma placa Arduino pro mini com micro-controlador Atmega32u4 que recebe alimentação e faz comunicação com o PC Windows ou Linux. Por definição também os pinos 8 e 9 do Arduino são ligados no módulo bluetooth conforme lista abaixo:
 
-|------------|-------------------|
+<table>
+  <thead>
+    <td>Arduino</td><td>Módulo Bluetooth</td>
+  </thead>
+  <tbody>
+    <tr>
+      <td>pin 8 (TX)</td><td>RX</td>
+      <td>pin 9 (RX)</td><td>TX</td>
+      <td>VCC</td><td>VCC</td>
+      <td>GND</td><td>GND</td>
+    </tr>
+  </tbody>
+</table>
 
-|  Arduino   |  Módulo Bluetooth |
-
-|------------|-------------------|
-
-| pin 8 (TX) |      RX           |
-
-| pin 9 (RX) |      TX           |
-
-| VCC        |      VCC          |
-
-| GND        |      GND          |
-
-|------------|-------------------|
+OBS.: verifique a tensão de cada módulo para evitar queima do componente.
 
 Nos sites abaixo é possível encontrar tutoriais de como mudar o nome do seu módulo Bluetooth (sugestão: use TECLADONFP):
 
