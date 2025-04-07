@@ -7,14 +7,23 @@ Este projeto pode ser adaptado para qualquer sistema similar de outros estados.
 
 # Construção do hardware
 Por definição o hardwware consta de uma placa Arduino pro mini com micro-controlador Atmega32u4 que recebe alimentação e faz comunicação com o PC Windows ou Linux. Por definição também os pinos 8 e 9 do Arduino são ligados no módulo bluetooth conforme lista abaixo:
-|-----------|-------------------|
-|Arduino    |  Módulo Bluetooth |
-|-----------|-------------------|
-|pin 8 (TX) |      RX|
-|pin 9 (RX) |      TX|
-|VCC        |      VCC|
-|GND        |      GND|
-|-----------|-------------------|
+
+|------------|-------------------|
+
+|  Arduino   |  Módulo Bluetooth |
+
+|------------|-------------------|
+
+| pin 8 (TX) |      RX           |
+
+| pin 9 (RX) |      TX           |
+
+| VCC        |      VCC          |
+
+| GND        |      GND          |
+
+|------------|-------------------|
+
 Nos sites abaixo é possível encontrar tutoriais de como mudar o nome do seu módulo Bluetooth (sugestão: use TECLADONFP):
 
 https://www.martyncurrey.com/hc-06-hc01-comv2-0/
@@ -38,6 +47,6 @@ Considerando que o hardware já foi constrído, ligue o harware no seu note e fa
 
 Abra o APP e clique no botão de baixo para conectar no disposivo correto. Na lista que vai aparecer procure por TECLADONFP ou o nome que você utilizou.
 
-Abra o site da Nota Fiscal Paulista (https://www.nfp.fazenda.sp.gov.br/login.aspx) e vá em Entidades -> Cadastrar Cupons. Na interface de entrada de cupos clique no campo chave de acesso e deixe o mouse posicionado no início desse campo. Após ler um QRCODE o mesmo será enviado para o notebook e se o mouse estiver posicionado no local correto o próximo código já pode ser lido, acelerando o processo.
+Abra o site da [Nota Fiscal Paulista](https://www.nfp.fazenda.sp.gov.br/Inicio.aspx) e vá em Entidades -> Cadastrar Cupons. Na interface de entrada de cupos clique no campo chave de acesso e deixe o mouse posicionado no início desse campo. Após ler um QRCODE o mesmo será enviado para o notebook e se o mouse estiver posicionado no local correto o próximo código já pode ser lido, acelerando o processo.
 
-# Bons cadastros.
+## Bons cadastros.
